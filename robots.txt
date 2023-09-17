@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://miriamdelosrios.github.io/sitemap.xml

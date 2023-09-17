@@ -1,0 +1,48 @@
+<section id="bottom">
+  <div class="container fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+      <div class="row">
+          <div class="col-md-2">
+              <a href="#" class="footer-logo">
+                  <img src="/assets/images/logo-black.png" alt="logo">
+              </a>
+          </div>
+          <div class="col-md-10">
+              <div class="row">
+                  {% for section in site.data.footer %}
+                  <div class="col-md-2 col-sm-6">
+                    <div class="widget">
+                        <h3>{{ section.name }}</h3>
+                        <ul>
+                          {% for item in section.submenus %}
+                            <li><a href="{{ item.link }}">{{ item.name }}</a></li>
+                          {% endfor %}
+                        </ul>
+                      </div>
+                  </div>
+                  {% endfor %}
+              </div>
+          </div>
+
+
+      </div>
+  </div>
+</section>
+<!--/#bottom-->
+
+<footer id="footer" class="midnight-blue">
+  <div class="container">
+      <div class="row">
+          <div class="col-sm-6">
+              &copy; 2019 <a target="_blank" href="http://miriamdelosriosactriz.es/" title="P&aacute;gina profesional M&iacute;riam de los R&iacute;os"> M&iacute;riam de los R&iacute;os - Actriz Dramaturga Cantante Autora</a>.<br/> Todos los Derechos Reservados.
+          </div>
+          <div class="col-sm-6">
+              <ul class="pull-right">
+                  <li><a href="/">Portada</a></li>
+                  <li><a href="/contacto.html">Contacto</a></li>
+              </ul>
+          </div>
+      </div>
+  </div>
+</footer>
+<!--/#footer-->
+

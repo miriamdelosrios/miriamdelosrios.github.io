@@ -1,0 +1,12 @@
+{
+  "short_name": "miriamdelosrios",
+  "name": "Miriam de los Ríos",
+  "icons": [{
+    "src": "assets/images/icon.png",
+    "type": "image/png",
+    "sizes": "128x128"
+  }],
+  "start_url": "/",
+  "background_color": "#fafafa",
+  "theme_color": "#fafafa"
+}

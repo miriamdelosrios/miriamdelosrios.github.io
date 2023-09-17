@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }}</title>
+
+    {% feed_meta %}
+    {% include seo.html %}
+
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="apple-touch-icon" href="/assets/images/icon.png">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- Normalize -->
+    <link rel="stylesheet" href="/assets/css/normalize.css">
+
+    <!-- Custom -->
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+
+<body class="homepage">
+<header id="header">
+{% include navigation.html %}
+</header>
+{{ content }}
+
+{% include footer.html %}
+
+<script src="/assets/js/jquery.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
+<script src="/assets/js/jquery.prettyPhoto.js"></script>
+<script src="/assets/js/owl.carousel.min.js"></script>
+<script src="/assets/js/jquery.isotope.min.js"></script>
+<script src="/assets/js/main.js"></script>
+<script src="/assets/js/instafeed.min.js"></script>
+
+{% include google_tag.html %}
+{% include cookie.html %}
+
+</body>
+</html>

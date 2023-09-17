@@ -1,0 +1,12 @@
+- name: Instagram
+  class: fab fa-instagram
+  link: https://www.instagram.com/vermisferios
+# - name: Youtube
+#   class: fab fa-youtube
+#   link: https://www.youtube.com/@xxxx
+# - name: Spotify
+#   class: fab fa-spotify
+#   link: https://open.spotify.com/artist/xxxx?si=xxxx
+# - name: Soundcloud
+#   class: fab fa-soundcloud
+#   link: https://soundcloud.com/xxxx

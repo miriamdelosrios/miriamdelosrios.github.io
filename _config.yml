@@ -1,0 +1,37 @@
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+
+baseurl: "" # the subpath of your site, e.g. /blog
+host: "miriamdelosrios.github.io"
+url: "https://miriamdelosrios.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+logo: /assets/images/icon.png
+
+exclude:
+  - .jekyll-cache/
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - Procfile
+  - convert_img.sh
+  - resize_img.sh
+  - config.ru
+  - Rakefile
+
+# SEO and OG global variables
+title: Miriam de los Ríos
+lang: es_ES
+email: contacto@miriamdelosriosactriz.es
+description: >-
+  Miriam de los Rios: Actriz, dramaturga, cantante y autora
+seo_image: /assets/images/miriamdelosrios_seo.jpg
+seo_image_width: 1280
+seo_image_height: 720
