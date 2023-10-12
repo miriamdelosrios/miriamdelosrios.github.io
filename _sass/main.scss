@@ -2388,3 +2388,54 @@ figure figcaption{
   text-align: center;
   padding: 8px 4px;
 }
+
+
+.ratio-9x16 {
+  --bs-aspect-ratio: calc(16 / 9 * 100%);
+}
+
+.ratio-64x91 {
+  --bs-aspect-ratio: calc(91 / 64 * 100%);
+}
+
+/* Link */
+#links {
+  color: rgba(33, 37, 41, 1);
+}
+.logo_play, .button_play {
+  min-width: 100px;
+}
+.logo_play img {
+  max-height: 30px;
+  margin-top: 5px;
+}
+.button_play a {
+  min-width: 100px;
+  width: 100%;
+  height: 30px;
+  font-size: 12px;
+  margin-top: 5px;
+}
+.row_play {
+  padding: 1rem 0;
+}
+
+.artist_name, .album_name {
+  padding-left: 1rem;
+}
+.artist_name {
+  font-size: 2em;
+  font-weight: bold;
+}
+.album_name {
+  padding-bottom: 1rem;
+  font-size: 1.4em;
+}
+
+.bandcamp_link, .copyleft {
+  font-size: 0.8em;
+  padding-top: 2rem;
+}
+.copyleft {
+  color: #848484;
+}
