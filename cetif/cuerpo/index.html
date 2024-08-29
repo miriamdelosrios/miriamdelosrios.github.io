@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproducción Automática de Audio</title>
+</head>
+<body>
+
+    <audio id="audio" autoplay controls>
+        <source src="Cuerpo.mp3" type="audio/mpeg">
+        Tu navegador no soporta la reproducción de audio.
+    </audio>
+
+    <script>
+        // Asegurarse de que el audio se reproduzca automáticamente en móviles
+        document.addEventListener('DOMContentLoaded', function() {
+            var audio = document.getElementById('audio');
+            audio.play().catch(function(error) {
+                console.log('La reproducción automática fue bloqueada por el navegador.');
+            });
+        });
+    </script>
+
+</body>
+</html>
